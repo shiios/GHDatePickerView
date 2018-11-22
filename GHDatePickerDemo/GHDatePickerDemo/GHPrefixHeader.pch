@@ -1,0 +1,23 @@
+//
+//  GHPrefixHeader.pch
+//  GHDatePickerDemo
+//
+//  Created by yin tian on 2018/11/22.
+//  Copyright © 2018 yin tian. All rights reserved.
+//
+
+#ifndef GHPrefixHeader_pch
+#define GHPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#import "GHDatePickerView.h"
+#import "BRPickerViewMacro.h"
+#import "BRDatePickerView.h"
+
+
+
+#endif /* GHPrefixHeader_pch */

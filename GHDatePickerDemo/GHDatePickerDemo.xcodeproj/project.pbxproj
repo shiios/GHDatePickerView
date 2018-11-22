@@ -15,6 +15,14 @@
 		6710243721A67D74000EC81D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710243621A67D74000EC81D /* main.m */; };
 		6710244121A67D74000EC81D /* GHDatePickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710244021A67D74000EC81D /* GHDatePickerDemoTests.m */; };
 		6710244C21A67D74000EC81D /* GHDatePickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710244B21A67D74000EC81D /* GHDatePickerDemoUITests.m */; };
+		6710246D21A6803C000EC81D /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710245C21A6803C000EC81D /* BRStringPickerView.m */; };
+		6710246E21A6803C000EC81D /* NSDate+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710246121A6803C000EC81D /* NSDate+BRPickerView.m */; };
+		6710246F21A6803C000EC81D /* BRDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710246221A6803C000EC81D /* BRDatePickerView.m */; };
+		6710247021A6803C000EC81D /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710246521A6803C000EC81D /* BRBaseView.m */; };
+		6710247121A6803C000EC81D /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710246821A6803C000EC81D /* BRAddressModel.m */; };
+		6710247221A6803C000EC81D /* BRPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6710246A21A6803C000EC81D /* BRPickerView.bundle */; };
+		6710247321A6803C000EC81D /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710246C21A6803C000EC81D /* BRAddressPickerView.m */; };
+		6710247721A6806D000EC81D /* GHDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710247621A6806D000EC81D /* GHDatePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,24 @@
 		6710244721A67D74000EC81D /* GHDatePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHDatePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6710244B21A67D74000EC81D /* GHDatePickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHDatePickerDemoUITests.m; sourceTree = "<group>"; };
 		6710244D21A67D74000EC81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6710245B21A6803C000EC81D /* BRStringPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRStringPickerView.h; sourceTree = "<group>"; };
+		6710245C21A6803C000EC81D /* BRStringPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRStringPickerView.m; sourceTree = "<group>"; };
+		6710245D21A6803C000EC81D /* BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerView.h; sourceTree = "<group>"; };
+		6710245E21A6803C000EC81D /* BRPickerViewMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerViewMacro.h; sourceTree = "<group>"; };
+		6710246021A6803C000EC81D /* BRDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDatePickerView.h; sourceTree = "<group>"; };
+		6710246121A6803C000EC81D /* NSDate+BRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BRPickerView.m"; sourceTree = "<group>"; };
+		6710246221A6803C000EC81D /* BRDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDatePickerView.m; sourceTree = "<group>"; };
+		6710246321A6803C000EC81D /* NSDate+BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BRPickerView.h"; sourceTree = "<group>"; };
+		6710246521A6803C000EC81D /* BRBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBaseView.m; sourceTree = "<group>"; };
+		6710246621A6803C000EC81D /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
+		6710246821A6803C000EC81D /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
+		6710246921A6803C000EC81D /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
+		6710246A21A6803C000EC81D /* BRPickerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BRPickerView.bundle; sourceTree = "<group>"; };
+		6710246B21A6803C000EC81D /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
+		6710246C21A6803C000EC81D /* BRAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressPickerView.m; sourceTree = "<group>"; };
+		6710247521A6806D000EC81D /* GHDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDatePickerView.h; sourceTree = "<group>"; };
+		6710247621A6806D000EC81D /* GHDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDatePickerView.m; sourceTree = "<group>"; };
+		6710247821A68109000EC81D /* GHPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHPrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +127,8 @@
 		6710242621A67D73000EC81D /* GHDatePickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6710247421A6806D000EC81D /* GHDatePickerView */,
+				6710245921A6803C000EC81D /* BRPickerView */,
 				6710242721A67D73000EC81D /* AppDelegate.h */,
 				6710242821A67D73000EC81D /* AppDelegate.m */,
 				6710242A21A67D73000EC81D /* ViewController.h */,
@@ -110,6 +138,7 @@
 				6710243221A67D74000EC81D /* LaunchScreen.storyboard */,
 				6710243521A67D74000EC81D /* Info.plist */,
 				6710243621A67D74000EC81D /* main.m */,
+				6710247821A68109000EC81D /* GHPrefixHeader.pch */,
 			);
 			path = GHDatePickerDemo;
 			sourceTree = "<group>";
@@ -130,6 +159,69 @@
 				6710244D21A67D74000EC81D /* Info.plist */,
 			);
 			path = GHDatePickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		6710245921A6803C000EC81D /* BRPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				6710245A21A6803C000EC81D /* StringPickerView */,
+				6710245D21A6803C000EC81D /* BRPickerView.h */,
+				6710245E21A6803C000EC81D /* BRPickerViewMacro.h */,
+				6710245F21A6803C000EC81D /* DatePickerView */,
+				6710246421A6803C000EC81D /* Base */,
+				6710246721A6803C000EC81D /* AddressPickerView */,
+			);
+			path = BRPickerView;
+			sourceTree = "<group>";
+		};
+		6710245A21A6803C000EC81D /* StringPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				6710245B21A6803C000EC81D /* BRStringPickerView.h */,
+				6710245C21A6803C000EC81D /* BRStringPickerView.m */,
+			);
+			path = StringPickerView;
+			sourceTree = "<group>";
+		};
+		6710245F21A6803C000EC81D /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				6710246021A6803C000EC81D /* BRDatePickerView.h */,
+				6710246121A6803C000EC81D /* NSDate+BRPickerView.m */,
+				6710246221A6803C000EC81D /* BRDatePickerView.m */,
+				6710246321A6803C000EC81D /* NSDate+BRPickerView.h */,
+			);
+			path = DatePickerView;
+			sourceTree = "<group>";
+		};
+		6710246421A6803C000EC81D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6710246521A6803C000EC81D /* BRBaseView.m */,
+				6710246621A6803C000EC81D /* BRBaseView.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6710246721A6803C000EC81D /* AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				6710246821A6803C000EC81D /* BRAddressModel.m */,
+				6710246921A6803C000EC81D /* BRAddressPickerView.h */,
+				6710246A21A6803C000EC81D /* BRPickerView.bundle */,
+				6710246B21A6803C000EC81D /* BRAddressModel.h */,
+				6710246C21A6803C000EC81D /* BRAddressPickerView.m */,
+			);
+			path = AddressPickerView;
+			sourceTree = "<group>";
+		};
+		6710247421A6806D000EC81D /* GHDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				6710247521A6806D000EC81D /* GHDatePickerView.h */,
+				6710247621A6806D000EC81D /* GHDatePickerView.m */,
+			);
+			path = GHDatePickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6710247221A6803C000EC81D /* BRPickerView.bundle in Resources */,
 				6710243421A67D74000EC81D /* LaunchScreen.storyboard in Resources */,
 				6710243121A67D74000EC81D /* Assets.xcassets in Resources */,
 				6710242F21A67D73000EC81D /* Main.storyboard in Resources */,
@@ -262,9 +355,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6710246F21A6803C000EC81D /* BRDatePickerView.m in Sources */,
+				6710247021A6803C000EC81D /* BRBaseView.m in Sources */,
 				6710242C21A67D73000EC81D /* ViewController.m in Sources */,
+				6710246E21A6803C000EC81D /* NSDate+BRPickerView.m in Sources */,
 				6710243721A67D74000EC81D /* main.m in Sources */,
 				6710242921A67D73000EC81D /* AppDelegate.m in Sources */,
+				6710247321A6803C000EC81D /* BRAddressPickerView.m in Sources */,
+				6710247721A6806D000EC81D /* GHDatePickerView.m in Sources */,
+				6710247121A6803C000EC81D /* BRAddressModel.m in Sources */,
+				6710246D21A6803C000EC81D /* BRStringPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BZY3R8282S;
+				GCC_PREFIX_HEADER = GHDatePickerDemo/GHPrefixHeader.pch;
 				INFOPLIST_FILE = GHDatePickerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +555,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BZY3R8282S;
+				GCC_PREFIX_HEADER = GHDatePickerDemo/GHPrefixHeader.pch;
 				INFOPLIST_FILE = GHDatePickerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
