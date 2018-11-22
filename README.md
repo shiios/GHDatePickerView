@@ -25,7 +25,27 @@
         NSLog(@"%@%@",selectDateStr,ampmStr);
     }];
 }
+/**
 效果展示-：
+*/
+https://github.com/shiios/GHDatePickerView/Simulator Screen Shot - iPhone XR - 2018-11-22 at 14.22.09.png
+
+/**
+*  模式选择为 GHDatePickerModeDateAMPM  yyyyMMdd AM/PM
+*/
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSDate *minDate = [NSDate br_setYear:2017 month:1 day:1];
+    NSDate *maxDate = [NSDate br_setYear:2037 month:1 day:1];
+    [GHDatePickerView showPickerViewWithTitle:@"休假" defaultValue:@"" dataType:GHDatePickerModeDateAMPM currentDate:[NSDate date] minDate:minDate maxDate:maxDate resultBlock:^(NSString *selectDateStr, NSString *ampmStr) {
+        
+        NSLog(@"%@%@",selectDateStr,ampmStr);
+    }];
+}
+/**
+效果展示二：
+*/
+https://github.com/shiios/GHDatePickerView/Simulator Screen Shot - iPhone XR - 2018-11-22 at 14.22.52.png
 
 
 
