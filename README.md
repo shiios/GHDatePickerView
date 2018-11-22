@@ -55,4 +55,4 @@ https://github.com/shiios/GHDatePickerView/Simulator Screen Shot - iPhone XR - 2
 /**
 * 判断数据是否已经在沙盒中已经存在？
 */
--(BOOL) isFileExist:(NSString *)fileName;
+- (BOOL) isFileExist:(NSString *)fileName;
