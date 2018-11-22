@@ -28,7 +28,7 @@
 /**
 效果展示-：
 */
-https://github.com/shiios/GHDatePickerView/Simulator Screen Shot - iPhone XR - 2018-11-22 at 14.22.09.png
+![image](https://github.com/shiios/GHDatePickerView/blob/master/ampm.png?raw=true)
 
 /**
 *  模式选择为 GHDatePickerModeDateAMPM  yyyyMMdd AM/PM
@@ -45,7 +45,7 @@ https://github.com/shiios/GHDatePickerView/Simulator Screen Shot - iPhone XR - 2
 /**
 效果展示二：
 */
-https://github.com/shiios/GHDatePickerView/Simulator Screen Shot - iPhone XR - 2018-11-22 at 14.22.52.png
+![image](https://github.com/shiios/GHDatePickerView/blob/master/yyyy.png?raw=true)
 
 /**
 * 清理缓存
