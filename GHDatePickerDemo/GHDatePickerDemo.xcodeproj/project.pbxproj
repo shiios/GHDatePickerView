@@ -23,6 +23,8 @@
 		6710247221A6803C000EC81D /* BRPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6710246A21A6803C000EC81D /* BRPickerView.bundle */; };
 		6710247321A6803C000EC81D /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710246C21A6803C000EC81D /* BRAddressPickerView.m */; };
 		6710247721A6806D000EC81D /* GHDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6710247621A6806D000EC81D /* GHDatePickerView.m */; };
+		6710247C21A688EA000EC81D /* ampm.png in Resources */ = {isa = PBXBuildFile; fileRef = 6710247A21A688EA000EC81D /* ampm.png */; };
+		6710247D21A688EA000EC81D /* yyyy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6710247B21A688EA000EC81D /* yyyy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		6710247521A6806D000EC81D /* GHDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDatePickerView.h; sourceTree = "<group>"; };
 		6710247621A6806D000EC81D /* GHDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDatePickerView.m; sourceTree = "<group>"; };
 		6710247821A68109000EC81D /* GHPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHPrefixHeader.pch; sourceTree = "<group>"; };
+		6710247A21A688EA000EC81D /* ampm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ampm.png; sourceTree = "<group>"; };
+		6710247B21A688EA000EC81D /* yyyy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yyyy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 		6710242621A67D73000EC81D /* GHDatePickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6710247921A688EA000EC81D /* ScreenShot */,
 				6710247421A6806D000EC81D /* GHDatePickerView */,
 				6710245921A6803C000EC81D /* BRPickerView */,
 				6710242721A67D73000EC81D /* AppDelegate.h */,
@@ -222,6 +227,15 @@
 				6710247621A6806D000EC81D /* GHDatePickerView.m */,
 			);
 			path = GHDatePickerView;
+			sourceTree = "<group>";
+		};
+		6710247921A688EA000EC81D /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				6710247A21A688EA000EC81D /* ampm.png */,
+				6710247B21A688EA000EC81D /* yyyy.png */,
+			);
+			path = ScreenShot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,9 +342,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6710247221A6803C000EC81D /* BRPickerView.bundle in Resources */,
+				6710247C21A688EA000EC81D /* ampm.png in Resources */,
 				6710243421A67D74000EC81D /* LaunchScreen.storyboard in Resources */,
 				6710243121A67D74000EC81D /* Assets.xcassets in Resources */,
 				6710242F21A67D73000EC81D /* Main.storyboard in Resources */,
+				6710247D21A688EA000EC81D /* yyyy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
