@@ -47,10 +47,12 @@ https://github.com/shiios/GHDatePickerView/Simulator Screen Shot - iPhone XR - 2
 */
 https://github.com/shiios/GHDatePickerView/Simulator Screen Shot - iPhone XR - 2018-11-22 at 14.22.52.png
 
-
-
-//清理缓存
+/**
+* 清理缓存
+*/
 - (void)cleanCache;
  
-//判断数据是否已经在沙盒中已经存在？
+/**
+* 判断数据是否已经在沙盒中已经存在？
+*/
 -(BOOL) isFileExist:(NSString *)fileName;
