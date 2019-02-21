@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "GHDatePickerDemoUI"
   s.version      = "0.0.1"
-  s.summary      = "A short description of GHDatePickerDemoUI."
+  s.summary      = "CocoaPods组件化实践"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,11 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+CocoaPods组件化实践，一个简简单单的日期选择界面
                    DESC
 
-  s.homepage     = "http://EXAMPLE/GHDatePickerDemoUI"
+#首页链接
+  s.homepage     = "https://github.com/shiios/GHDatePickerView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +40,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +81,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/GHDatePickerDemoUI.git", :tag => "#{s.version}" }
+#资源库链接
+  s.source       = { :git => "https://github.com/shiios/GHDatePickerView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +93,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "GHDatePickerDemo/GHDatePickerDemo/GHDatePickerView", "GHDatePickerView/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
